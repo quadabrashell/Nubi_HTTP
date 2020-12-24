@@ -1,0 +1,21 @@
+{
+    "name": "DirectAccess",
+    "version": "1.0.8",
+    "description": "HTTP server.",
+    "main": "src/Main",
+    "scripts": {
+        "start": "ts-node src/Main.ts",
+        "dev": "nodemon --exec npm run start -- src/Main.ts",
+        "build": "tsc",
+        "serve": "node src/Main.js"
+    },
+    "author": "xxxzsx <xxxzsx@netc.it>",
+    "dependencies": {
+        "@types/node": "^7.0.22",
+        "ts-node": "^3.0.4",
+        "typescript": "^2.3.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.11.0"
+    }
+}
